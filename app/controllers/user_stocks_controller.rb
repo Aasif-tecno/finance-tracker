@@ -17,7 +17,6 @@ class UserStocksController < ApplicationController
     user_stock.destroy
     flash[:notice] = "#{stock.ticker} was succesfully removed from portfolio"
     redirect_to my_portfolio_path
-
   end
   
 end
